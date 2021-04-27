@@ -1,0 +1,14 @@
+backup-vitoria
+final.txt
+instrucoes.txt
+log
+pasta1
+pasta2
+pasta3
+README.md
+trab1-vitoria.txt
+ultimocomando.txt
+vitoria12
+vitoria1.txt
+vitoria2.txt
+vitoria3.txt

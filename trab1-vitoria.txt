@@ -1,5 +1,5 @@
-Aluno: (SeuNome)
-Prova de Laboratorio de Sistemas Operacionais
+Aluno: Vitoria Queiroz - 0050013165
+Prova dlse Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
 1o. Semestre de 2021   Turno: Noite            Trab
 --------------------------------------------------
@@ -11,53 +11,55 @@ certifique que existe apenas uma pasta com esse nome) e cole nas questões todos
 1 - Usando uma combinação dos comandos cat, tail e/ou head, crie uma linha de comando linux para exibir 
 as linhas 100 a 110 do arquivo log/access.log
 Resposta (Cole aqui o(s) comandos utilizados): 
-
+cat log/access.log|head -100|tail -110
 
 
 2 - Renomear o arquivo trab1-2021.txt da sua pasta para trab1-seunome.txt 
 (dica de segurnaça: se o arquivo estiver aberto, para garantir que o arquivo não será corrompido, salve e feche-o antes de inciar o comando)
 Ex.: trab1-alex.txt
 Resposta (Cole aqui o(s) comandos utilizados): 
-
+mv trab1-2021.txt trab1-vitoria.txt
 
 
 3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
 sequencia 1, 2 e 3. 
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
 Resposta (Cole aqui o(s) comandos utilizados): 
-
-
+touch vitoria1.txt
+touch vitoria2.txt
+touch vitoria3.txt
 
 4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
 direcionar a saida para o terceiro arquivo do item anterior.
 Resposta (Cole aqui o(s) comandos utilizados): 
-
+find -empty > vitoria3.txt
 
 
 5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
 3 arquivos criandos anteriormente para esta pasta.
 Resposta (Cole aqui o(s) comandos utilizados): 
-
-
+mkdir vitoria12
+cp vitoria?.txt vitoria12/
 
 
 6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
 que comecem com seu nome e termina com o numeral de 1 a 3 com extensão .txt?
 Resposta (Cole aqui o(s) comandos utilizados): 
-
+ls vitoria[123].txt
 
 
 7 - A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
-Resposta1 (comando linux usado): 
-Resposta2 (numero de diretórios encontrados) :
+Resposta1 (comando linux usado): find . -name "pasta*"
+Resposta2 (numero de diretórios encontrados) : 4
 
 
 
 8 - A partir de sua pasta original(item 0), copiar a pasta1, pasta2 e pasta3 (e seu conteúdo) para 
 uma nova pasta chamada backup-seunome 
 Resposta (Cole aqui o(s) comandos utilizados): 
-
+mkdir backup-vitoria
+cp -r pasta? backup-vitoria/
 
 
 **************************************************************************************************

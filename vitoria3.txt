@@ -1,0 +1,12 @@
+./.git/branches
+./.git/refs/tags
+./.git/objects/pack
+./.git/objects/info
+./pasta1/1.txt
+./pasta2/2.txt
+./pasta3/pasta31/3.txt
+./vitoria1.txt
+./vitoria2.txt
+./vitoria3.txt
+./vitoria12/vitoria1.txt
+./vitoria12/vitoria2.txt
